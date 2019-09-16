@@ -6,3 +6,7 @@
 2. In class review of good and bad code 
 
 3. Select one of the bad examples and suggest 2-3 changes according to the S.M.A.R.T methodology discussed in lab 
+> [How to assign issues/reviews to team](https://help.github.com/en/articles/assigning-issues-and-pull-requests-to-other-github-users)
+
+> [How to review proposed code changes](https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request)
+
