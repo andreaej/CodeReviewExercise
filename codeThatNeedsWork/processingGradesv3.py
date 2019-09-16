@@ -1,3 +1,5 @@
+#Sydney White code reviewed this
+
 def average(testGrades,hwGrades,projGrades,labGrades):
   totalTest = 0
   totalHW = 0
@@ -40,7 +42,8 @@ def weightedAverage(testAverage,hwAverage, projAverage, labAverage):
   
   finalGrade = weightedTest + weightedHW + weightedProj + weightedLab
   print("Your final grade is:", round(finalGrade,2))
-
+  
+#I would suggest moving def main to the top so you can see your values to start off with
 def main():
   testGrades = ["tests", 100, 85, 78, 0]
   hwGrades = ["homework", 93, 45, 88, 100, 76, 96, 99, 82]
