@@ -1,6 +1,7 @@
 # CodeReviewExercise
 
-1. [Code review in Github](https://github.com/features/code-review/)
+1. [Code review in Github](https://github.com/features/code-review/) 
+> [Hitchhiker's Guide to Python Conventions](https://docs.python-guide.org/writing/style/#conventions)
 2. Review [PEP 8, Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), Python good practices
 
 2. In class review of good and bad code 
