@@ -1,4 +1,5 @@
 #Practicing string manipulation and loops
+#hello 
 
 pronouncedWord = input("Please enter a Hawaiian word to pronounce:")
 repeatFlag = True
