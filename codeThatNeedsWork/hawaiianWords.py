@@ -1,5 +1,4 @@
-#CIS111Project
-#Students will leverage string manipulation and loops
+#Practicing string manipulation and loops
 
 pronouncedWord = input("Please enter a Hawaiian word to pronounce:")
 repeatFlag = True
