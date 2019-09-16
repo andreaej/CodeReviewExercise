@@ -1,5 +1,6 @@
 #Practicing string manipulation and loops
-
+#I'm adding my name to the top of this file 
+#Dr. Johnson
 pronouncedWord = input("Please enter a Hawaiian word to pronounce:")
 repeatFlag = True
 validFlag = True
