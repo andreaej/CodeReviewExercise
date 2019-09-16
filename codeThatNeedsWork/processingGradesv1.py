@@ -34,7 +34,7 @@ print ("Average = ",sum(labGrades)/len(labGrades))
 
 
 
-
+#It would be beneficial to use the avg function so your code won't be as redundant and more efficient 
 
 
 
