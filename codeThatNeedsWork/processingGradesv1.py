@@ -1,51 +1,28 @@
+testGrades = ["tests", 100, 85, 78, 0]
+
+hwGrades = ["homework", 93, 45, 88, 100, 76, 96, 99, 82]
+
+projGrades = ["projects", 100, 90, 77]
+
+labGrades = ["labs", 92, 99, 51, 90, 88, 100, 76, 96, 99]
+
+
 testGrades = [100, 85, 78, 0]
-hwGrades = [93, 45, 88, 100, 76, 96, 99, 82]
-projGrades = [100, 90, 77]
-labGrades = [92, 99, 51, 90, 88, 100, 76, 96, 99]
+print ("Enter all testGrades with ',' as separator")
+testGrades = [int(i) for i in input().split(',')]
+print ("Average = ",sum(testGrades)/len(testGrades)) 
 
+hwGrades = ["homework", 93, 45, 88, 100, 76, 96, 99, 82]
+print ("Enter all hwGrades with ',' as separator")
+hwGrades = [int(i) for i in input().split(',')]
+print ("Average = ",sum(hwGrades)/len(hwGrades))
 
-#Defined a function that took the average of of each of the grades
-def averageOfGrades(grades):
-  print ("Average = ", round(sum(grades)/len(grades),2) )
-  
-#Called the function for each of the test grades 
-averageOfGrades(testGrades)
-averageOfGrades(hwGrades)
-averageOfGrades(projGrades)
-averageOfGrades(labGrades)
+projGrades = ["projects", 100, 90, 77]
+print ("Enter all projGrades with ',' as separator")
+projGrades = [int(i) for i in input().split(',')]
+print ("Average = ",sum(projGrades)/len(projGrades))
 
-
-
-
-
-
-
-
-#It would be beneficial to use the avg function so your code won't be as redundant and more efficient 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+labGrades = ["labs", 92, 99, 51, 90, 88, 100, 76, 96, 99]
+print ("Enter all labGrades with ',' as separator")
+labGrades = [int(i) for i in input().split(',')]
+print ("Average = ",sum(labGrades)/len(labGrades)) 
